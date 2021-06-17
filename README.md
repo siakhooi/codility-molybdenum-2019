@@ -17,7 +17,7 @@
   - Code `A`: `Molybdenum2019A.java`
   - etc
 
-### Gold Award
+### Results
 
 | File | Complexity | Result | Report                                                                  |
 | ---- | ---------- | ------ | ----------------------------------------------------------------------- |
