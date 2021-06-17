@@ -1,11 +1,11 @@
-# Codility Challenge: <Challenge Name>
+# Codility Challenge: Molybdenum 2019
 
-## <Task Name>
+## LeaderSliceInc
 
-- Difficulty: <Difficulty>
-- <Description>
-- <challenge-url>
-- <task-url>
+- Difficulty: Hard
+- Given an array, find all its elements that can become a leader, after increasing by 1 all of the numbers in some segment of a given length.
+- <https://app.codility.com/programmers/challenges/molybdenum2019/>
+- <https://app.codility.com/programmers/task/leader_slice_inc/>
 
 ## Versions
 
@@ -14,40 +14,11 @@
   - `OK`: Correctness 100%, Performance <100%.
   - `Fail`: Correctness <100%, Performance <100%.
 - File naming convention
-  - Code `A`: `MayThe4th2021A.java`
-  - Code `B`: `MayThe4th2021B.java`
+  - Code `A`: `Molybdenum2019A.java`
   - etc
 
 ### Gold Award
 
-| File | Complexity              | Result | Report                                                                            |
-| ---- | ----------------------- | ------ | --------------------------------------------------------------------------------- |
-| `A`  | `O(N*log(N))` or `O(N)` | `Good` | [3KMABZ](https://app.codility.com/cert/view/cert3KMABZ-DFKT9B4U8M83H9HB/details/) |
-
-## Helper Code
-
-```bash
-java -cp target/classes nsh.codility.Challenge2021A
-```
-
-```java
-	static void pf(String f, Object... v) {
-		System.out.printf(f, v);
-		System.out.println("");
-	}
-```
-
-```java
-	public static void main1(String argv[]) {
-		String S = "eeeeedddddaadddcccccccrweioutpwoeriotuweoituebbbbbbaaaa";
-		int K = 620;
-		String E = "aaaaaabbbbbbcccccccddddddddeeeeeeeiorwutpworiotuweoitue";
-
-		 String A = (new Challenge2021A()).solution(S, K);
-		pf("     K: %d", K);
-		pf("    in: %s", S);
-		pf("   out: %s", A);
-		pf("expert: %s", E);
-		pf("Result: %s", (A.equals(E) ? "good" : "bad"));
-	}
-```
+| File | Complexity | Result | Report                                                                  |
+| ---- | ---------- | ------ | ----------------------------------------------------------------------- |
+| `A`  | `O(M)`     | `Good` | [V2T89N-V8F](https://app.codility.com/demo/results/trainingV2T89N-V8F/) |
