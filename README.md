@@ -19,6 +19,7 @@
 
 ### Results
 
-| File | Complexity | Result | Report                                                                  |
-| ---- | ---------- | ------ | ----------------------------------------------------------------------- |
-| `A`  | `O(M)`     | `Good` | [V2T89N-V8F](https://app.codility.com/demo/results/trainingV2T89N-V8F/) |
+| File | Description                       | Complexity | Result | Report                                                                  |
+| ---- | --------------------------------- | ---------- | ------ | ----------------------------------------------------------------------- |
+| `A`  |                                   | `O(M)`     | `Good` | [V2T89N-V8F](https://app.codility.com/demo/results/trainingV2T89N-V8F/) |
+| `B`  | `A`, with checking max 2 leaders. | `O(M)`     | `Good` | [CRE25U-M84](https://app.codility.com/demo/results/trainingCRE25U-M84/) |
